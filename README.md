@@ -8,16 +8,20 @@ This repository contains image data collected from a certain video (I have taken
 
 # Steps
 
-1. Generating the dataset by taking screenshots from a video and creating the 2 classes directory.
+1. Generate the dataset by taking screenshots from a video and creating the 2 classes directory.
 
-2. Loading the dataset in the ipynb file and making label column.
+2. Load the dataset in the ipynb file and making label column.
 
-3. Splitting the data into train and test data.
+3. Split the data into train and test data.
 
 4. Apply data augmentation on our training data.
 
-5. Building a CNN model for classification.
+5. Build a CNN model for classification.
 
-6. Testing the model by loading the video in the SSD model to detect the persons in it and then classify them by the CNN model.
+6. Download Tensorflow object detection repository from [here](https://github.com/tensorflow/models).
+
+7. Download SSD (Single Shot Detector) mobile-net-v1 pre-trained model from [here](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz).
+
+8. Testing the model by loading the video in the SSD model to detect the persons in it and then classify them by the CNN model.
 
 
