@@ -3,6 +3,9 @@
 This repository contains image data collected from a certain video (I have taken screenshots from this video) to be trained on a CNN model, this data includes 2 classes, first class is called "Essaily" and second class called "not Essaily". I have used the SSD mobile-net object detection model to detect all persons in the image and the result will be an image contains many persons that bounded by a box and the CNN model decide which of them is "Essaily" and which "not Essaily".
 
 
+![result](results/11.png)
+
+
 # Steps
 
 1. Generating the dataset by taking screenshots from a video and creating the 2 classes directory.
